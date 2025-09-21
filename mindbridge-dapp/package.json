@@ -1,0 +1,58 @@
+{
+  "name": "mindbridge-dapp",
+  "version": "1.0.0",
+  "description": "MindBridge: Decentralized Mental Health Companion for Indian Youth - GenAI Exchange Hackathon 2025",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "deploy": "turbo run deploy",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "blockchain:compile": "cd packages/contracts && npm run compile",
+    "blockchain:deploy": "cd packages/contracts && npm run deploy",
+    "ai:train": "cd packages/ai && npm run train",
+    "setup": "npm install && npm run blockchain:compile"
+  },
+  "keywords": [
+    "mental-health",
+    "blockchain",
+    "ai",
+    "zero-knowledge",
+    "lightning-network",
+    "india",
+    "web3",
+    "cultural-sensitivity"
+  ],
+  "author": "MindBridge Team",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.10.16",
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindbridge-team/mindbridge-dapp"
+  },
+  "bugs": {
+    "url": "https://github.com/mindbridge-team/mindbridge-dapp/issues"
+  },
+  "homepage": "https://mindbridge.ai"
+}

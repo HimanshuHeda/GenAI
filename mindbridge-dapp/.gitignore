@@ -1,0 +1,131 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Cache directories
+.turbo/
+.cache/
+.npm/
+.yarn/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# Blockchain artifacts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# AI model files
+models/
+*.pkl
+*.joblib
+training_data/
+
+# Sensitive configuration files
+config/google-service-account.json
+config/lnd/
+config/bitcoin/
+*.pem
+*.key
+*.cert
+
+# Database dumps
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker volumes
+docker-data/
+
+# Temporary files
+tmp/
+temp/
+
+# Lightning Network data
+lnd_data/
+bitcoin_data/
+
+# Monitoring data
+prometheus_data/
+grafana_data/
+
+# Mobile specific
+# React Native
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Bundle artifacts
+*.jsbundle
+
+# iOS
+ios/Pods/
+ios/build/
+*.ipa
+
+# Android
+android/.gradle/
+android/app/build/
+*.apk
+*.aab
+
+# Flipper
+flipper-rn-addons.podspec
+
+# CocoaPods
+Pods/
